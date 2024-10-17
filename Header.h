@@ -34,11 +34,11 @@
 using std::cout;
 
 double fungf(double x) {
-	return 0.2 * (std::exp(x) + std::cos(PI * x) + x - 2.0);
+	return 0.2*(std::exp(x)+cos(PI*)+x-0.4;
 }
 double fungg(double x) {
-	return -std::exp(x) - std::cos(PI * x) + 2.0;
+	return -0.2*(std::exp(x)+cos(PI*x))+0.4;
 }
 double dfungf(double x) {
-	return 0.2 * (std::exp(x) - std::sin(PI * x) * PI + 1.0);
+	return 0.2 * (std::exp(x) -std::sin(PI*x)*PI)+1;
 }
