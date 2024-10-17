@@ -34,7 +34,7 @@
 using std::cout;
 
 double fungf(double x) {
-	return 0.2*(std::exp(x)+cos(PI*)+x-0.4;
+	return 0.2*(std::exp(x)+cos(PI*x))+x-0.4;
 }
 double fungg(double x) {
 	return -0.2*(std::exp(x)+cos(PI*x))+0.4;
